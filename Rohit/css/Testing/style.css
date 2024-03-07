@@ -1,0 +1,16 @@
+img {
+  background-color: blue;
+}
+img:hover {
+  background-color: pink;
+}
+.heading {
+  color: blue;
+}
+#text {
+  color: rgb(129, 172, 29);
+}
+
+.brooclie {
+  border-radius: 100px;
+}

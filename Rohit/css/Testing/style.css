@@ -1,5 +1,5 @@
 img {
-  background-color: blue;
+  background-color: rgb(230, 255, 5);
 }
 img:hover {
   background-color: pink;
@@ -8,7 +8,7 @@ img:hover {
   color: blue;
 }
 #text {
-  color: rgb(129, 172, 29);
+  color: rgb(251, 6, 6);
 }
 
 .brooclie {

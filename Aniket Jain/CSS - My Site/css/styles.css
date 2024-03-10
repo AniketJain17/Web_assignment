@@ -1,31 +1,45 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2em;
 }
 h1 {
-  margin: 0;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .top-container {
   background-color: #e4f9f5;
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  border: solid 10px;
-  margin: 10px 10px 0 10px;
+  position: relative;
+  padding-top: 100px;
 }
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
 .middle-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  border: solid 20px;
-  margin-left: 270px;
 }
+
 .bottom-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  border: solid 10px;
-  margin-left: 550px;
+}
+
+.design {
+  text-decoration: underline;
 }
